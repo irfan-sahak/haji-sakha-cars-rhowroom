@@ -1,0 +1,99 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(ddd.avif);background-repeat: no-repeat;
+            background-size: 100%;
+        
+        }
+        .menu-btn{
+            text-decoration: none;
+            margin-top: 30px !important;
+            
+        }
+        .menu-btn:hover{
+            background-color: #ccc;
+            color: #000000;
+            padding: 20px;
+        }
+
+        .background-image{
+            height:2000;
+            width: 2000;
+        }   
+        header {
+            background-color:rgb(51, 51, 51);
+            color:white;
+            padding:  20px;
+            font-style: italic;
+            
+        }
+
+        nav{
+            padding:1em 0;
+            background-color: #5a5a5a;
+            color: rgb(0, 0, 0);
+            text-align:left;
+        }
+
+        header a{
+            margin-left: 50px;
+            font-size: 20px;
+            text-align: left;
+            /* margin-top: 20px; */
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 0 20px;
+            color:aliceblue;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            font-style: italic;
+            background-color: aquamarine;
+            
+        }
+        h1 {
+            text-align: center;
+            margin-top: 0; 
+            font-style: italic;
+            color:blue(0, 247, 255) (0, 204, 255)
+        }
+        /*slector*/
+        .car-info {
+            margin-bottom: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .car-info h2 {
+            margin-top: 0;
+        }
+        .car-info p {
+            line-height: 1.6;
+        }
+        footer {
+            background-color:rgba(206, 138, 11, 0.534);
+            color:black;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .head1{
+            text-align: center;
+            margin-left: 10%;
+
+        }
+    
+    .bg-img{
+        background: url(i.jpg);
+    }
+       <style>
+       
+a:link{color:black;}
+a:visited{color:white;}
+a:hover{color:rgb(0, 162, 255);}
+a:active{color:green;}  
